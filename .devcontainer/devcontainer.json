@@ -1,0 +1,13 @@
+{
+    "name": "eos-developer",
+    "workspaceMount": "type=volume,src=${localWorkspaceFolderBasename},dst=/home/yo",
+    "dockerFile": "./Dockerfile",
+    "workspaceFolder": "/home/yo",
+
+    // Standard EOS Smart contract development extensions
+    "extensions": [
+        "dbaeumer.vscode-eslint",
+        "christian-kohler.npm-intellisense",
+        "davidanson.vscode-markdownlint",
+    ]
+}
